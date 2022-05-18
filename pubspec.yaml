@@ -1,0 +1,120 @@
+name: forum_republique
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  hexcolor: ^2.0.6
+  google_fonts: ^2.3.0
+  sqflite: ^2.0.2
+  get: ^4.6.1
+  flutter_localizations: # Add this line
+      sdk: flutter         # Add this line
+  intl: ^0.17.0
+  shared_preferences: ^2.0.13
+  flutter_html: ^2.2.1
+  pie_chart: ^5.3.0
+  font_awesome_flutter: ^10.1.0
+  otp_text_field: ^1.1.2
+  flutter_lints: ^1.0.0
+  get_storage:
+  flutter_local_notifications:
+  flutter_native_timezone:
+  date_picker_timeline:
+  flutter_map:
+  latlng:
+  flutter_polyline_points:
+  google_maps_flutter:
+  flutter_modifiers:
+  image_picker:
+  flutter_svg:
+  flutter_native_splash: ^2.1.3+1
+  flutter_easyloading: ^3.0.3
+  auth: ^8.1.0
+  flutter_slidable: ^1.2.0
+  qr_flutter: ^4.0.0
+  logger: ^1.1.0
+  flutter_secure_storage: ^5.0.2
+  json_annotation: ^4.5.0
+  encrypt:
+  grouped_list: ^4.2.0
+  chat_bubbles: ^1.2.0
+  http_parser: ^4.0.0
+  async: ^2.5.0
+  meta: ^1.3.0
+  path: ^1.8.0
+  http_interceptor: ^1.0.1
+  email_validator: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  http: ^0.13.0
+  fake_async: ^1.2.0
+  lints: ^1.0.0
+  shelf: ^1.1.0
+  test: ^1.16.0
+  json_serializable:
+  build_runner:
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+ android: true
+ ios: true
+ image_path: "assets/images/logoF.jpg"
+
+flutter:
+  generate: true # Add this line
+
+  uses-material-design: true
+
+  assets:
+    - logo.png
+    - assets/images/img1.png
+    - assets/images/img2.png
+    - assets/images/img3.jpg
+    - assets/images/img4.png
+    - assets/images/sarra1.jpg
+    - assets/images/sarra2.jpg
+    - assets/images/sarra3.jpg
+    - assets/images/tunisia.jpg
+    - assets/images/tunisflag.png
+    - assets/images/nomb.jpg
+    - assets/images/nomr.jpg
+    - assets/images/logoF.jpg
+    - assets/images/flagmap.webp
+    - assets/images/coeurR.jpg
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Black.ttf
+        - asset: fonts/Roboto-BlackItalic.ttf
+        - asset: fonts/Roboto-Bold.ttf
+        - asset: fonts/Roboto-BoldItalic.ttf
+        - asset: fonts/Roboto-Italic.ttf
+        - asset: fonts/Roboto-Light.ttf
+        - asset: fonts/Roboto-LightItalic.ttf
+        - asset: fonts/Roboto-Medium.ttf
+        - asset: fonts/Roboto-MediumItalic.ttf
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Thin.ttf
+        - asset: fonts/Roboto-ThinItalic.ttf
+
+    - family: Roboto Condensed
+      fonts:
+        - asset: fonts/RobotoCondensed-Bold.ttf
+        - asset: fonts/RobotoCondensed-BoldItalic.ttf
+        - asset: fonts/RobotoCondensed-Italic.ttf
+        - asset: fonts/RobotoCondensed-Light.ttf
+        - asset: fonts/RobotoCondensed-LightItalic.ttf
+        - asset: fonts/RobotoCondensed-Regular.ttf
